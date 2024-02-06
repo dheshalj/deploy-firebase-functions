@@ -1,6 +1,6 @@
-# Deploy to Firebase for Node18
+# Deploy to Firebase for current stable version of Node
 
-A GitHub Action to deploy to Firebase for Node18.
+A GitHub Action to deploy to Firebase for current stable version of Node.
 
 - Make sure that you checkout the repository using the [actions/checkout](https://github.com/actions/checkout) action
 - Make sure that you have the `firebase.json` file in the repository
