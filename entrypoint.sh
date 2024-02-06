@@ -12,7 +12,7 @@ if [ -z "${FIREBASE_PROJECT}" ]; then
     exit 1
 fi
 
-firebase deploy \
+firebase deploy --only functions \
     -m "${GITHUB_REF} (${GITHUB_SHA})" \
     --project ${FIREBASE_PROJECT} \
-    --only functions
+    
